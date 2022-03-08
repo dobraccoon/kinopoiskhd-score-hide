@@ -1,0 +1,10 @@
+{
+  "name": "KinopoiskHd rate hide",
+  "description": "Hide movie score and watch movies without bias",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts":[{
+	  "matches": ["https://hd.kinopoisk.ru/*"],
+	  "css":["style.css"]
+  }]
+}
